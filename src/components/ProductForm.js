@@ -21,7 +21,7 @@ function ProductForm(){
             date:newDate
         };
         console.log(productData);
-        setTitle('');
+        setTitle(''); // UI pe empty krne ke liye isko link krna prega
         setDate('');
         
     }
@@ -35,8 +35,9 @@ function ProductForm(){
                 <input type='text' value= {newTitle}onChange={titleChangeHandler}></input>
             </div>
             <div className='new-product_control'>
-                <label>Date</label>
-                <input type='date' value= {newDate} onChange={dateChangeHandler} min='2023-01-01' max='2023-12-12'></input>
+                <label>Date</label> 
+                {/* value={newDate} UI pe reflect krega */}
+                <input type='date' value= {newDate} onChange={dateChangeHandler}  min='2023-01-01' max='2023-12-12'></input>
             </div>
             <div className='new-product_button'>
                 <button type='submit'>Add Product</button>
