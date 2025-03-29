@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/demoshopApp/static/css/main.87f83c3a.css",
+    "main.js": "/demoshopApp/static/js/main.c667d283.js",
+    "index.html": "/demoshopApp/index.html",
+    "main.87f83c3a.css.map": "/demoshopApp/static/css/main.87f83c3a.css.map",
+    "main.c667d283.js.map": "/demoshopApp/static/js/main.c667d283.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87f83c3a.css",
+    "static/js/main.c667d283.js"
+  ]
+}
